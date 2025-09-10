@@ -1,0 +1,49 @@
+/* Estudiantes:
+Fhamair Alejandra Jaramillo Gurrute
+Catalina Gaona Medina */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f7f7f7;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.input-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+#resultados {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background: white;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
